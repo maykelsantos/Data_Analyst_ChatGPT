@@ -1,9 +1,7 @@
 # Desafio: Adicione uma nova disciplina com nota para todos os alunos no dicionário turma.
 # Dica: Use turma["nome_do_aluno"]["nova_disciplina"] = nova_nota.
 
-import random 
-
-nota = random.uniform(1,10)
+import random
 
 turma = {
     'Maykel': {

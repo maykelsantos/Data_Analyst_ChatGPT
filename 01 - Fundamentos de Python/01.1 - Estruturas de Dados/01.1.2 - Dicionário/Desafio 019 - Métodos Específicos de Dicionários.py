@@ -1,5 +1,5 @@
-# Desafio: Crie um dicionário chamado turma onde cada chave é o nome de um aluno e o valor é outro dicionário contendo as disciplinas e suas respectivas notas.
-# Dica: Estruture seu dicionário como {"nome_do_aluno": {"disciplina1": nota1, "disciplina2": nota2}}.
+# Desafio: Utilize o método get para acessar a nota de uma disciplina específica para um aluno, retornando "Não Encontrado" se a disciplina não existir.
+# Dica: Use turma["nome_do_aluno"].get("disciplina", "Não Encontrado").
 
 import random
 
@@ -56,4 +56,24 @@ turma = {
     }
 }
 
-print(turma)
+nome_aluno = [
+    'Maykel',
+    'Vitoria',
+    'Miguel',
+    'Jaqueline',
+    'Marcos',
+    'Joana',
+    'Maria',
+    'Eloisa',
+    'Elisa',
+    'Rita'
+]
+
+for nome in nome_aluno:
+    print(f'A nota do aluno(a) {nome} em Português é: {turma[nome].get('Portugues', 'Não Encontrado')}')
+    print(f'A nota do aluno(a) {nome} em Matemática é: {turma[nome].get('Matematica', 'Não Encontrado')}')
+    print(f'A nota do aluno(a) {nome} em Biologia é: {turma[nome].get('Biologia', 'Não Encontrado')}')
+    print(f'A nota do aluno(a) {nome} em História é: {turma[nome].get('Historia', 'Não Encontrado')}')
+
+
+    
