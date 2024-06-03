@@ -8,4 +8,4 @@ def multiplicar(x, y):
 
 produto = reduce(multiplicar, lista_numeros)
 
-print(produto)
+print(f'Este é o cálculo do produto de todos os elementos da lista: {produto}')
