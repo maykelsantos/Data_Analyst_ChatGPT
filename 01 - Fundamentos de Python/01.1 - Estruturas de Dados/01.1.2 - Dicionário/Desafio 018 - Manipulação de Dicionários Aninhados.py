@@ -1,5 +1,5 @@
-# Desafio: Crie um dicionário chamado turma onde cada chave é o nome de um aluno e o valor é outro dicionário contendo as disciplinas e suas respectivas notas.
-# Dica: Estruture seu dicionário como {"nome_do_aluno": {"disciplina1": nota1, "disciplina2": nota2}}.
+# Desafio: Adicione uma nova disciplina com nota para todos os alunos no dicionário turma.
+# Dica: Use turma["nome_do_aluno"]["nova_disciplina"] = nova_nota.
 
 import random 
 
@@ -57,5 +57,21 @@ turma = {
         'Biologia': round(random.uniform(5,10),2)
     }
 }
+
+nome_aluno = [
+    'Maykel',
+    'Vitoria',
+    'Miguel',
+    'Jaqueline',
+    'Marcos',
+    'Joana',
+    'Maria',
+    'Eloisa',
+    'Elisa',
+    'Rita'
+]
+
+for nome in nome_aluno:
+    turma[nome]['Historia'] = round(random.uniform(5,10),2)
 
 print(turma)
