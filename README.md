@@ -1,6 +1,10 @@
 # Roadmap para se Tornar um Analista de Dados Sênior Focado em Python
 
-Tornar-se um analista de dados sênior focado em Python envolve um aprendizado contínuo e estruturado. Este roadmap detalha as etapas e os conhecimentos necessários para alcançar esse objetivo, fornecendo uma base sólida e avançada em Python, análise de dados, estatística, machine learning, e habilidades de comunicação.
+Com o objetivo de tornar-se um analista de dados sênior focado em Python envolve um aprendizado contínuo e estruturado, este roadmap detalha as etapas e os conhecimentos necessários para alcançar esse objetivo, fornecendo uma base sólida e avançada em Python, análise de dados, estatística, machine learning, e habilidades de comunicação.
+
+## Orientações Iniciais
+
+- A partir do desafio 035 implementamos o 'readme.md' para cada desafio resolvido.
 
 ## 1. Fundamentos de Python (1-2 meses)
 ### Objetivo
@@ -194,9 +198,7 @@ Preparar-se para o mercado de trabalho e obter certificações relevantes.
 ### Dicas Adicionais
 - Pratique regularmente, resolvendo problemas em sites como LeetCode, HackerRank.
 - Mantenha-se atualizado com as últimas tendências e tecnologias em análise de dados.
-- Encontre um
-
- mentor ou participe de grupos de estudo para troca de conhecimentos e experiências.
+- Encontre um mentor ou participe de grupos de estudo para troca de conhecimentos e experiências.
 
 ---
 
